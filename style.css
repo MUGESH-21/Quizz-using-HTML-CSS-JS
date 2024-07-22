@@ -1,0 +1,39 @@
+body{
+    background-color: coral;
+}
+.choose{
+    margin: 5% 20%;
+    padding: 5%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(221, 167, 203);
+}
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    margin-bottom: 25px;
+    height: 55px;
+}
+.b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    margin-bottom: 25px;
+    height: 55px;
+}
+p{
+    flex: 1;
+    background: transparent;
+    padding: 10px;
+    font-weight: 25px;
+    padding-left: 5%;
+}
+button{
+    padding: 20px 30px;
+    border: none;
+    background-color: rgb(159, 102, 212);
+    cursor: pointer;
+}
